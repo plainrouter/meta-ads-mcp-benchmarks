@@ -1,0 +1,54 @@
+{
+  "capturedAt": "2026-11-25",
+  "totalTools": 111,
+  "categories": {
+    "Product Catalogs & DPA": {
+      "total": 38,
+      "interactive": 2,
+      "readOnly": 19,
+      "writeDelete": 17
+    },
+    "Pixels, Datasets & Conversions": {
+      "total": 15,
+      "interactive": 0,
+      "readOnly": 7,
+      "writeDelete": 8
+    },
+    "Core Campaigns, Ad Sets, Ads & Account": {
+      "total": 13,
+      "interactive": 5,
+      "readOnly": 6,
+      "writeDelete": 2
+    },
+    "Creatives & Media": {
+      "total": 13,
+      "interactive": 2,
+      "readOnly": 4,
+      "writeDelete": 7
+    },
+    "Permissions, Pages & Instagram": {
+      "total": 10,
+      "interactive": 1,
+      "readOnly": 8,
+      "writeDelete": 1
+    },
+    "Insights, Benchmarks & Ad Library": {
+      "total": 9,
+      "interactive": 2,
+      "readOnly": 7,
+      "writeDelete": 0
+    },
+    "Experiments (A/B & Lift)": {
+      "total": 7,
+      "interactive": 0,
+      "readOnly": 4,
+      "writeDelete": 3
+    },
+    "Custom Audiences": {
+      "total": 6,
+      "interactive": 0,
+      "readOnly": 3,
+      "writeDelete": 3
+    }
+  }
+}

@@ -22,6 +22,21 @@ Reproducible audit of 6 Meta Ads Model Context Protocol (MCP) servers checked on
 3. **Direct delete and live-spend writes are widespread.** Four of the six servers (`mikusnuz`, `armavita`, `oliverames`, and Meta Official Ads MCP) expose 6 to 12 explicit delete tools directly to the model, and none of the non-Plainrouter servers provide an external human approval inbox with stored decision receipts.
 4. **Ad-platform MCPs do not verify first-party conversion pipelines.** Even Meta Official Ads MCP's 14 dataset/pixel tools only report Meta's side of the fence, not independent first-party site arrivals or backend revenue reconciliation. Teams can connect Meta Official Ads MCP (with write/delete tools disabled) alongside Plainrouter in the same client.
 
+## Meta Official Ads MCP Breakdown by Domain (111 Live Tools)
+
+Grouping all 111 live tools captured from `https://mcp.facebook.com/ads` shows why its surface is 2.5x larger than focused Meta Ads servers: **Product Catalogs & DPA alone account for 38 tools** even for advertisers who do not run catalog ads.
+
+| Domain Category | Total | Read-Only | Interactive | Write / Delete |
+| :--- | ---: | ---: | ---: | ---: |
+| Product Catalogs & DPA | 38 | 19 | 2 | 17 |
+| Pixels, Datasets & Conversions | 15 | 7 | 0 | 8 |
+| Core Campaigns, Ad Sets, Ads & Account | 13 | 6 | 5 | 2 |
+| Creatives & Media | 13 | 4 | 2 | 7 |
+| Permissions, Pages & Instagram | 10 | 8 | 1 | 1 |
+| Insights, Benchmarks & Ad Library | 9 | 7 | 2 | 0 |
+| Experiments (A/B & Lift) | 7 | 4 | 0 | 3 |
+| Custom Audiences | 6 | 3 | 0 | 3 |
+
 ## Reproducing the Audit
 
 Requires Node.js 20+ and `git`:
